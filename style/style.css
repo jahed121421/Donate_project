@@ -104,6 +104,9 @@ header{
     color: white;
     margin-top: 15px;
 }
+.three-page{
+    margin: 5%;
+}
 .three-page > h1{
     font-size: 2rem;
     text-align: center;
@@ -116,9 +119,11 @@ header{
 }
 .three-page .donate{
     display: flex;
+    gap: 25px;
     justify-content: space-around;
     align-items: center;
     margin: 30px;
+    overflow: hidden;
 }
 .donate-sector{
     height: 350px;
@@ -168,19 +173,20 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 140px;
+    margin: 60px 140px;
 }
 .update > h1{
     font-size: 2.5rem;
     padding-bottom: 15px;
+    text-align:center;
 }
 .update > p{
     padding-bottom: 25px;
     text-align: center;
 }
 .update .sub{
-    height: 100px;
-    width: 95%;
+    height: 210px;
+    width: 100%;
     background-color: rgba(223, 40, 70, 0.678);
     display: flex;
     justify-content: center;
@@ -209,7 +215,7 @@ header{
 }
 footer{
     text-align: center;
-    /* margin: 75px; */
+    padding: 25px;
     background-color: rgba(0, 0, 0, 0.856);
     color: white;
 }
